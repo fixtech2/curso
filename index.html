@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ConsertaFlix - Cursos Online de Reparos Celulares</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+  </style>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#1e3a8a', // blue-900
+            accent: '#f59e0b',  // amber-500
+            dark: '#0f172a',    // slate-900
+          }
+        }
+      }
+    }
+  </script>
+  
+  <!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '2424454857978695');
+fbq('track', 'PageView');
+fbq('track', 'ViewContent');
+</script>
+<!-- End Meta Pixel Code -->
+
+</head>
+
+
+<body class="font-inter bg-slate-50">
+
+  <!-- HERO SECTION -->
+  <header class="bg-dark text-white pt-8 pb-16 px-4 overflow-hidden relative">
+    <div class="absolute inset-0 bg-gradient-to-br from-blue-950 via-primary to-blue-900"></div>
+
+    <!-- Decorative grid pattern -->
+    <div class="absolute inset-0 opacity-[0.03]" style="background-image: radial-gradient(rgba(255, 255, 255, 0.8) 1px, transparent 1px); background-size: 24px 24px;"></div>
+
+    <div class="relative max-w-7xl mx-auto text-center">
+      <h1 class="text-4xl md:text-6xl font-extrabold mb-6 leading-tight tracking-tight">
+        ConsertaFlix <span class="text-accent">
+		</span>
+      </h1>
+
+      <p class="text-xl md:text-2xl text-slate-300 max-w-3xl mx-auto mb-8 px-4">
+        O primeiro curso online completo de reparos celulares com metodologia prática e resultados garantidos
+      </p>
+
+      <!-- COUNTDOWN TIMER -->
+      <div class="inline-flex items-center gap-4 bg-accent/20 backdrop-blur-sm rounded-full px-6 py-3 mb-8 border border-accent/50">
+        <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 20 20">
+          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"/>
+        </svg>
+        <span class="text-accent font-semibold">Oferta por tempo limitado!</span>
+      </div>
+
+      <!-- CTA BUTTON -->
+      <a href="#pricing" class="inline-flex items-center gap-3 bg-accent hover:bg-amber-400 text-dark font-bold px-8 py-4 rounded-xl transition-all duration-200 ease-in-out transform hover:scale-105 hover:shadow-lg hover:shadow-accent/25 cursor-pointer group">
+        <span>Garanta sua vaga agora!</span>
+        <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="currentColor" viewBox="0 0 20 20">
+          <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+        </svg>
+      </a>
+
+      <!-- TRUST BADGES -->
+      <div class="mt-12 flex flex-wrap justify-center gap-6 text-sm text-slate-400">
+        <div class="flex items-center gap-2">
+          <svg class="w-5 h-5 text-accent" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+          </svg>
+          <span>Certificado de Conclusão</span>
+        </div>
+        <div class="flex items-center gap-2">
+          <svg class="w-5 h-5 text-accent" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+          </svg>
+          <span>Assinatura anual</span>
+        </div>
+        <div class="flex items-center gap-2">
+          <svg class="w-5 h-5 text-accent" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+          </svg>
+          <span>Suporte Especializado</span>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- GALLERY/PROOF SOCIAL SECTION -->
+  <section id="gallery-section" class="py-16 bg-slate-50 relative">
+    <div class="absolute inset-0 opacity-[0.02]" style="background-image: radial-gradient(rgba(245, 158, 11, 0.8) 1px, transparent 1px); background-size: 24px 24px;"></div>
+    <div class="relative max-w-7xl mx-auto px-4">
+      <p class="text-center text-lg font-semibold text-slate-600 mb-8 uppercase tracking-wide">
+        Material do curso
+      </p>
+
+      <!-- Image carousel - 12 slots -->
+      <div class="relative bg-white rounded-2xl shadow-xl overflow-hidden cursor-pointer">
+        <div class="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-0">
+          <!-- Galeria de resultados -->
+          <img src="https://consertaflix.com.br/wp-content/uploads/2025/10/4.png" alt="Reparo concluído" class="w-full h-auto aspect-ratio-3/4 object-cover hover:opacity-90 transition-all duration-200 cursor-pointer">
+          <img src="https://consertaflix.com.br/wp-content/uploads/2025/10/3.png" alt="Microsoldering em andamento" class="w-full h-auto aspect-ratio-3/4 object-cover hover:opacity-90 transition-all duration-200 cursor-pointer">
+          <img src="https://consertaflix.com.br/wp-content/uploads/2025/10/19.png" alt="Esquema elétrico sendo analisado" class="w-full h-auto aspect-ratio-3/4 object-cover hover:opacity-90 transition-all duration-200 cursor-pointer">
+          <img src="https://consertaflix.com.br/wp-content/uploads/2025/10/5.jpg" alt="Técnica de reballing" class="w-full h-auto aspect-ratio-3/4 object-cover hover:opacity-90 transition-all duration-200 cursor-pointer">
+          <img src="https://consertaflix.com.br/wp-content/uploads/2025/10/15.jpg" alt="Fonte bancada em uso" class="w-full h-auto aspect-ratio-3/4 object-cover hover:opacity-90 transition-all duration-200 cursor-pointer">
+          <img src="https://consertaflix.com.br/wp-content/uploads/2025/10/4-1.jpg" alt="Troca de tela" class="w-full h-auto aspect-ratio-3/4 object-cover hover:opacity-90 transition-all duration-200 cursor-pointer">
+          <img src="https://consertaflix.com.br/wp-content/uploads/2025/10/course_thumbnails_bef17b7d-52cc-49d3-89e9-638b21aac8ab_9dc6c4d498ad4158ba1664b1f736ea11.png" alt="Conserto de carga" class="w-full h-auto aspect-ratio-3/4 object-cover hover:opacity-90 transition-all duration-200 cursor-pointer">
+          <img src="https://consertaflix.com.br/wp-content/uploads/2025/10/7-2.png" alt="Reparo de áudio" class="w-full h-auto aspect-ratio-3/4 object-cover hover:opacity-90 transition-all duration-200 cursor-pointer">
+          <img src="https://consertaflix.com.br/wp-content/uploads/2025/10/course_thumbnails_1bef62e1-1526-4b70-88ad-4f3d8611a07d_0b1690a7c1b34cbd87e707ff403e7d29.png" alt="Troca de câmera" class="w-full h-auto aspect-ratio-3/4 object-cover hover:opacity-90 transition-all duration-200 cursor-pointer">
+          <img src="https://consertaflix.com.br/wp-content/uploads/2025/10/course_thumbnails_5ee975bc-ac78-41a5-90d3-5ce415e6d328_22afd3bb51674024b4cec66434816701.png" alt="Substituição de bateria" class="w-full h-auto aspect-ratio-3/4 object-cover hover:opacity-90 transition-all duration-200 cursor-pointer">
+      <img src="https://consertaflix.com.br/wp-content/uploads/2025/10/course_thumbnails_abf49cbc-f38e-4b26-aaf6-5b86ad076f30_d2c0e8f39d564980bbccfdfee90f9eb2.png" alt="Reparo avançado de placas" class="w-full h-auto aspect-ratio-3/4 object-cover hover:opacity-90 transition-all duration-200 cursor-pointer">
+      <img src="https://consertaflix.com.br/wp-content/uploads/2025/10/course_thumbnails_7a07170f-b012-4418-b486-0ce7947586b4_4de53bba870b44a28ebd34f48d74dc98.png" alt="Microsoldagem especializada" class="w-full h-auto aspect-ratio-3/4 object-cover hover:opacity-90 transition-all duration-200 cursor-pointer">
+      </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- COURSES SECTION -->
+  <section class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-4 text-primary">Cursos em Destaque</h2>
+      <p class="text-center text-slate-500 mb-12 max-w-2xl mx-auto">Escolha a especialização que combina com seu objetivo profissional</p>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        <!-- Course 1: Esquema Elétrico -->
+        <div class="bg-gradient-to-br from-blue-50 to-slate-50 rounded-2xl shadow-lg border border-slate-200 overflow-hidden hover:shadow-xl transition-shadow duration-300 cursor-pointer group">
+          <img src="https://imagizer.imageshack.com/img923/3011/chW7Um.png" alt="Esquema Elétrico" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300">
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-primary mb-2">Esquema Elétrico</h3>
+            <p class="text-slate-600 mb-4 text-sm line-clamp-3">Aprenda a ler e interpretar esquemas elétricos de smartphones, identificando componentes e trilhas para diagnósticos precisos.</p>
+
+            <!-- Course carousel for this course -->
+            <div class="mt-4 bg-white rounded-lg p-3 shadow-inner">
+              <h4 class="text-xs font-semibold text-slate-500 uppercase mb-2">Módulos do curso</h4>
+              <div class="flex gap-2 overflow-x-auto pb-2 -mx-4 px-4 scrollbar-thin scrollbar-thumb-slate-300">
+                <span class="whitespace-nowrap bg-slate-100 text-slate-700 text-xs px-3 py-1.5 rounded-full cursor-pointer hover:bg-accent hover:text-dark transition-colors duration-200">Introdução</span>
+                <span class="whitespace-nowrap bg-slate-100 text-slate-700 text-xs px-3 py-1.5 rounded-full cursor-pointer hover:bg-accent hover:text-dark transition-colors duration-200">Símbolos</span>
+                <span class="whitespace-nowrap bg-slate-100 text-slate-700 text-xs px-3 py-1.5 rounded-full cursor-pointer hover:bg-accent hover:text-dark transition-colors duration-200">Leitura</span>
+                <span class="whitespace-nowrap bg-slate-100 text-slate-700 text-xs px-3 py-1.5 rounded-full cursor-pointer hover:bg-accent hover:text-dark transition-colors duration-200">Componentes</span>
+                <span class="whitespace-nowrap bg-slate-100 text-slate-700 text-xs px-3 py-1.5 rounded-full cursor-pointer hover:bg-accent hover:text-dark transition-colors duration-200">Diagnóstico</span>
+              </div>
+            </div>
+
+            <a href="#pricing" class="mt-4 inline-block w-full bg-primary hover:bg-blue-800 text-white text-center py-3 rounded-xl font-semibold transition-all duration-200 cursor-pointer">Ver detalhes</a>
+          </div>
+        </div>
+
+        <!-- Course 2: CPU Avançado -->
+        <div class="bg-gradient-to-br from-slate-50 to-blue-50 rounded-2xl shadow-lg border border-slate-200 overflow-hidden hover:shadow-xl transition-shadow duration-300 cursor-pointer group">
+          <img src="https://imagizer.imageshack.com/img923/7/KNv2BK.png" alt="CPU Avançado" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300">
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-primary mb-2">CPU Avançado</h3>
+            <p class="text-slate-600 mb-4 text-sm line-clamp-3">Técnicas avançadas de reparo de processadores: identificação de curtos, queima e recuperação de CPUs danificadas.</p>
+
+            <!-- Course carousel for this course -->
+            <div class="mt-4 bg-white rounded-lg p-3 shadow-inner">
+              <h4 class="text-xs font-semibold text-slate-500 uppercase mb-2">Módulos do curso</h4>
+              <div class="flex gap-2 overflow-x-auto pb-2 -mx-4 px-4 scrollbar-thin scrollbar-thumb-slate-300">
+                <span class="whitespace-nowrap bg-slate-100 text-slate-700 text-xs px-3 py-1.5 rounded-full cursor-pointer hover:bg-accent hover:text-dark transition-colors duration-200">Fundamentos</span>
+                <span class="whitespace-nowrap bg-slate-100 text-slate-700 text-xs px-3 py-1.5 rounded-full cursor-pointer hover:bg-accent hover:text-dark transition-colors duration-200">Leitura</span>
+                <span class="whitespace-nowrap bg-slate-100 text-slate-700 text-xs px-3 py-1.5 rounded-full cursor-pointer hover:bg-accent hover:text-dark transition-colors duration-200">Microsoldeador</span>
+                <span class="whitespace-nowrap bg-slate-100 text-slate-700 text-xs px-3 py-1.5 rounded-full cursor-pointer hover:bg-accent hover:text-dark transition-colors duration-200">Teste</span>
+              </div>
+            </div>
+
+            <a href="#pricing" class="mt-4 inline-block w-full bg-primary hover:bg-blue-800 text-white text-center py-3 rounded-xl font-semibold transition-all duration-200 cursor-pointer">Ver detalhes</a>
+          </div>
+        </div>
+
+        <!-- Course 3: Fonte Bancada -->
+        <div class="bg-gradient-to-br from-slate-50 to-blue-50 rounded-2xl shadow-lg border border-slate-200 overflow-hidden hover:shadow-xl transition-shadow duration-300 cursor-pointer group">
+          <img src="https://imagizer.imageshack.com/img923/5599/f99fgT.png" alt="Fonte Bancada" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300">
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-primary mb-2">Fonte Bancada</h3>
+            <p class="text-slate-600 mb-4 text-sm line-clamp-3">Domine a bancada de reparo: configuração, uso seguro e diagnósticos para alimentar equipamentos com precisão.</p>
+
+            <!-- Course carousel for this course -->
+            <div class="mt-4 bg-white rounded-lg p-3 shadow-inner">
+              <h4 class="text-xs font-semibold text-slate-500 uppercase mb-2">Módulos do curso</h4>
+              <div class="flex gap-2 overflow-x-auto pb-2 -mx-4 px-4 scrollbar-thin scrollbar-thumb-slate-300">
+                <span class="whitespace-nowrap bg-slate-100 text-slate-700 text-xs px-3 py-1.5 rounded-full cursor-pointer hover:bg-accent hover:text-dark transition-colors duration-200">Segurança</span>
+                <span class="whitespace-nowrap bg-slate-100 text-slate-700 text-xs px-3 py-1.5 rounded-full cursor-pointer hover:bg-accent hover:text-dark transition-colors duration-200">Configuração</span>
+                <span class="whitespace-nowrap bg-slate-100 text-slate-700 text-xs px-3 py-1.5 rounded-full cursor-pointer hover:bg-accent hover:text-dark transition-colors duration-200">Multímetro</span>
+              </div>
+            </div>
+
+            <a href="#pricing" class="mt-4 inline-block w-full bg-primary hover:bg-blue-800 text-white text-center py-3 rounded-xl font-semibold transition-all duration-200 cursor-pointer">Ver detalhes</a>
+          </div>
+        </div>
+
+        <!-- Course 4: Reballing -->
+        <div class="bg-gradient-to-br from-slate-50 to-blue-50 rounded-2xl shadow-lg border border-slate-200 overflow-hidden hover:shadow-xl transition-shadow duration-300 cursor-pointer group">
+          <img src="https://imagizer.imageshack.com/img922/5019/W6wVLQ.png" alt="Reballing Avançado" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300">
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-primary mb-2">Reballing Avançado</h3>
+            <p class="text-slate-600 mb-4 text-sm line-clamp-3">Técnica especializada para componentes BGA: reballing de processadores, RF chips e outros componentes integrados.</p>
+
+            <!-- Course carousel for this course -->
+            <div class="mt-4 bg-white rounded-lg p-3 shadow-inner">
+              <h4 class="text-xs font-semibold text-slate-500 uppercase mb-2">Módulos do curso</h4>
+              <div class="flex gap-2 overflow-x-auto pb-2 -mx-4 px-4 scrollbar-thin scrollbar-thumb-slate-300">
+                <span class="whitespace-nowrap bg-slate-100 text-slate-700 text-xs px-3 py-1.5 rounded-full cursor-pointer hover:bg-accent hover:text-dark transition-colors duration-200">Preparação</span>
+                <span class="whitespace-nowrap bg-slate-100 text-slate-700 text-xs px-3 py-1.5 rounded-full cursor-pointer hover:bg-accent hover:text-dark transition-colors duration-200">Tecnologia</span>
+                <span class="whitespace-nowrap bg-slate-100 text-slate-700 text-xs px-3 py-1.5 rounded-full cursor-pointer hover:bg-accent hover:text-dark transition-colors duration-200">Execução</span>
+              </div>
+            </div>
+
+            <a href="#pricing" class="mt-4 inline-block w-full bg-primary hover:bg-blue-800 text-white text-center py-3 rounded-xl font-semibold transition-all duration-200 cursor-pointer">Ver detalhes</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SOCIAL PROOF SECTION -->
+  <section class="py-16 bg-slate-50 border-t border-slate-200">
+    <div class="max-w-7xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-4 text-primary">O que nossos alunos dizem</h2>
+
+      <!-- Testimonials grid -->
+      <div class="grid md:grid-cols-3 gap-6 mt-8">
+        <!-- YouTube iframe 1 -->
+        <div class="bg-white rounded-xl shadow-md overflow-hidden border border-slate-200 hover:shadow-lg transition-shadow duration-300 cursor-pointer group">
+          <iframe src="https://www.youtube.com/embed/IiMoCEvmCck?controls=0&enablejsapi=1"
+                  class="w-full h-56 object-cover group-hover:brightness-[0.98] transition-all duration-300"
+                  title="Depoimento Aluno 1">
+          </iframe>
+          <div class="p-4 bg-gradient-to-r from-primary to-blue-800">
+            <p class="text-white text-sm font-medium line-clamp-2">"A melhor experiência de ensino que já tive na área de reparos celulares. Conteúdo direto ao ponto e muito prático."</p>
+          </div>
+        </div>
+
+        <!-- YouTube iframe 2 -->
+        <div class="bg-white rounded-xl shadow-md overflow-hidden border border-slate-200 hover:shadow-lg transition-shadow duration-300 cursor-pointer group">
+          <iframe src="https://www.youtube.com/embed/f3e4I8o9cXI?controls=0&enablejsapi=1"
+                  class="w-full h-56 object-cover group-hover:brightness-[0.98] transition-all duration-300"
+                  title="Depoimento Aluno 2">
+          </iframe>
+          <div class="p-4 bg-gradient-to-r from-primary to-blue-800">
+            <p class="text-white text-sm font-medium line-clamp-2">"O suporte é incrível! Sempre atendem dúvidas e o conteúdo é atualizado constantemente. Recomendo muito!"</p>
+          </div>
+        </div>
+
+        <!-- YouTube iframe 3 -->
+        <div class="bg-white rounded-xl shadow-md overflow-hidden border border-slate-200 hover:shadow-lg transition-shadow duration-300 cursor-pointer group">
+          <iframe src="https://www.youtube.com/embed/FM6zu52YDA0?controls=0&enablejsapi=1"
+                  class="w-full h-56 object-cover group-hover:brightness-[0.98] transition-all duration-300"
+                  title="Depoimento Aluno 3">
+          </iframe>
+          <div class="p-4 bg-gradient-to-r from-primary to-blue-800">
+            <p class="text-white text-sm font-medium line-clamp-2">"Comecei do zero e agora conserto celulares com confiança. O curso vale cada centavo investido!"</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PRICING SECTION -->
+  <section id="pricing" class="py-20 bg-gradient-to-br from-slate-900 via-primary to-blue-900 relative overflow-hidden">
+    <div class="absolute inset-0 opacity-[0.05]" style="background-image: radial-gradient(rgba(245, 158, 11, 0.8) 1px, transparent 1px); background-size: 32px 32px;"></div>
+
+    <div class="relative max-w-5xl mx-auto px-4 text-center">
+      <!-- Decorative elements -->
+      <svg class="absolute top-0 left-1/2 transform -translate-x-1/2 w-full h-full opacity-[0.02]" fill="currentColor" viewBox="0 0 100 100">
+        <path d="M50 0 L100 30 L100 70 L50 100 L0 70 L0 30 Z"/>
+      </svg>
+
+      <h2 class="text-4xl md:text-5xl font-extrabold text-white mb-6 tracking-tight">
+        Ofertas Especiais para você começar hoje
+      </h2>
+
+      <!-- Summary box -->
+      <div class="bg-white/10 backdrop-blur-md rounded-3xl p-8 mb-12 border-2 border-accent/50 shadow-2xl">
+        <p class="text-xl text-slate-200 mb-6">Resumindo</p>
+
+        <!-- Primary offer -->
+        <div class="max-w-md mx-auto bg-white rounded-2xl p-8 transform hover:scale-[1.02] transition-transform duration-300 shadow-lg">
+          <div class="flex items-center justify-center gap-3 mb-4">
+            <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"/>
+            </svg>
+            <span class="text-2xl font-bold text-primary">Oferta</span>
+          </div>
+
+          <p class="text-center text-lg text-slate-600 mb-3">Acesso completo ao ConsertaFlix</p>
+
+          <!-- Price comparison -->
+          <div class="mb-7">
+            <div class="flex items-center justify-center gap-4">
+              <!-- Old price -->
+              <div class="text-right">
+                <span class="block text-slate-400 line-through font-semibold">R$ 897,00/ano</span>
+              </div>
+              <svg class="w-8 h-8 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"/>
+              </svg>
+              <!-- New price -->
+              <div class="text-right">
+                <span class="block text-4xl font-extrabold text-primary tracking-tight">R$ 197,00</span>
+                <span class="block text-slate-600 font-semibold">à vista</span>
+              </div>
+            </div>
+
+            <!-- Installment option -->
+            <p class="text-center text-slate-400 mt-2 text-sm">ou 12x de R$ 20,37 sem juros</p>
+          </div>
+
+          <!-- Benefits list -->
+          <ul class="space-y-3 max-w-xs mx-auto mb-8">
+            <li class="flex items-center gap-2 text-slate-700 justify-center">
+              <svg class="w-5 h-5 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+              </svg>
+              <span>Assinatura anual</span>
+            </li>
+            <li class="flex items-center gap-2 text-slate-700 justify-center">
+              <svg class="w-5 h-5 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+              </svg>
+              <span>Certificado de conclusão</span>
+            </li>
+            <li class="flex items-center gap-2 text-slate-700 justify-center">
+              <svg class="w-5 h-5 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+              </svg>
+              <span>Suporte especializado</span>
+            </li>
+            <li class="flex items-center gap-2 text-slate-700 justify-center">
+              <svg class="w-5 h-5 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+              </svg>
+              <span>Atualizações constantes</span>
+            </li>
+          </ul>
+
+<!-- CTA com redirecionamento Kiwify -->
+<a href="https://pay.kiwify.com.br/picIlP0?afid=tY9XNF53" target="_blank" rel="noopener noreferrer"
+   class="block w-full bg-accent hover:bg-amber-400 text-dark font-bold px-8 py-5 rounded-xl transition-all duration-200 transform hover:scale-[1.03] cursor-pointer shadow-lg shadow-accent/25"
+   onclick="window.location.href='https://pay.kiwify.com.br/picIlP0?afid=tY9XNF53'"
+>
+  GARANTIR MINHA VAGA AGORA!
+</a>
+
+          <!-- Trust badges -->
+          <div class="flex items-center justify-center gap-6 mt-6 text-slate-500 text-sm">
+            <span class="flex items-center gap-1.5">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.898 10.29 9 11.621 5.102-1.331 9-6.03 9-11.621 0-1.04-.204-2.04-.57-2.947z"/>
+              </svg>
+              <span>Compra segura</span>
+            </span>
+            <span class="flex items-center gap-1.5">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.898 10.29 9 11.621 5.102-1.331 9-6.03 9-11.621 0-1.04-.204-2.04-.57-2.947z"/>
+              </svg>
+              <span>Acesso imediato</span>
+            </span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FAQ SECTION -->
+  <section class="py-16 bg-white">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-12 text-primary">Perguntas Frequentes</h2>
+
+      <!-- FAQ Accordion -->
+      <div class="faq-container space-y-4" role="region" aria-labelledby="faq-heading">
+
+        <!-- Question 1 -->
+        <details class="group bg-slate-50 rounded-xl border border-slate-200 open:border-accent/30 transition-all duration-300 cursor-pointer" open>
+          <summary class="flex items-center justify-between p-6 list-none">
+            <h3 class="text-lg font-semibold text-primary pr-4 flex-1">Quem pode fazer o curso?</h3>
+            <span class="transform transition-transform duration-300 group-open:rotate-180">
+              <svg class="w-5 h-5 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </span>
+          </summary>
+          <div class="px-6 pb-6 pt-0 text-slate-600">
+            <p>O curso é ideal para: estudantes, profissionais da área que desejam especialização, autônomos e empreendedores. Não é necessário experiência prévia - o conteúdo inicia do zero.</p>
+          </div>
+        </details>
+
+        <!-- Question 2 -->
+        <details class="group bg-slate-50 rounded-xl border border-slate-200 open:border-accent/30 transition-all duration-300 cursor-pointer">
+          <summary class="flex items-center justify-between p-6 list-none">
+            <h3 class="text-lg font-semibold text-primary pr-4 flex-1">O curso tem certificado?</h3>
+            <span class="transform transition-transform duration-300 group-open:rotate-180">
+              <svg class="w-5 h-5 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </span>
+          </summary>
+          <div class="px-6 pb-6 pt-0 text-slate-600">
+            <p>Sim! Ao completar o curso, você receberá um certificado de conclusão digital e poderá imprimir uma versão em papel com valor profissional.</p>
+          </div>
+        </details>
+
+        <!-- Question 3 -->
+        <details class="group bg-slate-50 rounded-xl border border-slate-200 open:border-accent/30 transition-all duration-300 cursor-pointer">
+          <summary class="flex items-center justify-between p-6 list-none">
+            <h3 class="text-lg font-semibold text-primary pr-4 flex-1">Quanto tempo tenho acesso ao conteúdo?</h3>
+            <span class="transform transition-transform duration-300 group-open:rotate-180">
+              <svg class="w-5 h-5 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </span>
+          </summary>
+          <div class="px-6 pb-6 pt-0 text-slate-600">
+            <p>É uma plataforma por assinatura anual, você terá acesso a todos os cursos durante sua assinatura. Cancelando a assinatura, automaticamente perde o acesso. A renovação anual é muito acessível..</p>
+          </div>
+        </details>
+
+        <!-- Question 4 -->
+        <details class="group bg-slate-50 rounded-xl border border-slate-200 open:border-accent/30 transition-all duration-300 cursor-pointer">
+          <summary class="flex items-center justify-between p-6 list-none">
+            <h3 class="text-lg font-semibold text-primary pr-4 flex-1">Tem atualizações?</h3>
+            <span class="transform transition-transform duration-300 group-open:rotate-180">
+              <svg class="w-5 h-5 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </span>
+          </summary>
+          <div class="px-6 pb-6 pt-0 text-slate-600">
+            <p>Sim, os novos cursos e conteúdos serão adicionados na ConsertaFlix sem cobrança adicional.</p>
+          </div>
+        </details>
+
+        <!-- Question 5 -->
+        <details class="group bg-slate-50 rounded-xl border border-slate-200 open:border-accent/30 transition-all duration-300 cursor-pointer">
+          <summary class="flex items-center justify-between p-6 list-none">
+            <h3 class="text-lg font-semibold text-primary pr-4 flex-1">Tenho suporte após a compra?</h3>
+            <span class="transform transition-transform duration-300 group-open:rotate-180">
+              <svg class="w-5 h-5 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </span>
+          </summary>
+          <div class="px-6 pb-6 pt-0 text-slate-600">
+            <p>Sim! Contamos com um suporte especializado que está disponível para ajudar você em dúvidas sobre o conteúdo, acesso à plataforma ou qualquer outra questão.</p>
+          </div>
+        </details>
+
+        <!-- Question 6 -->
+        <details class="group bg-slate-50 rounded-xl border border-slate-200 open:border-accent/30 transition-all duration-300 cursor-pointer">
+          <summary class="flex items-center justify-between p-6 list-none">
+            <h3 class="text-lg font-semibold text-primary pr-4 flex-1">Posso cancelar se não gostar?</h3>
+            <span class="transform transition-transform duration-300 group-open:rotate-180">
+              <svg class="w-5 h-5 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </span>
+          </summary>
+          <div class="px-6 pb-6 pt-0 text-slate-600">
+            <p>Certamente! Oferecemos garantia incondicional de 7 dias. Se não ficar satisfeito com o curso, basta entrar em contato e recebemos o seu dinheiro de volta, sem perguntas.</p>
+          </div>
+        </details>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-dark text-slate-500 py-12 border-t border-slate-700/50">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+
+      <!-- Aviso Legal -->
+      <p class="text-sm text-slate-500 mb-4">Aviso Legal: Nenhuma informação contida nesta página ou no produto assim como qualquer referência ao desempenho passado ou potencial de uma estratégia abordada no conteúdo não é, e não deve ser interpretada como uma recomendação ou como garantia de qualquer resultado. Os bônus grátis não fazem parte da entrega principal e não atrapalham o progresso do curso.</p>
+
+    </div>
+  </footer>
+        <p class="text-sm text-center md:text-left">&copy; 2026 ConsertaFlix. Todos os direitos reservados.</p>
+
+        
+
+    </div>
+  </footer>
+
+  <!-- Back to top button -->
+  <a href="#top" class="fixed bottom-6 right-6 bg-primary hover:bg-blue-800 text-white p-3 rounded-full shadow-lg transition-all duration-200 cursor-pointer group z-50">
+    <svg class="w-6 h-6 group-hover:translate-y-[-2px] transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"/>
+    </svg>
+  </a>
+
+  <!-- Smooth scroll polyfill -->
+  <script>
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        const href = this.getAttribute('href');
+        if (href !== '#') {
+          e.preventDefault();
+          const target = document.querySelector(href);
+          if (target) {
+            target.scrollIntoView({
+              behavior: 'smooth',
+              block: 'start'
+            });
+          }
+        }
+      });
+    });
+
+    // FAQ auto-close other items when one is opened
+    document.querySelectorAll('.faq-container details').forEach(detail => {
+      detail.addEventListener('toggle', function() {
+        if (this.open) {
+          this.closest('.faq-container').querySelectorAll('details:not([open])').forEach(d => {
+            d.open = false;
+          });
+        }
+      });
+    });
+
+
+    // Countdown timer (placeholder - replace with real dates)
+    function updateCountdown() {
+      const now = new Date();
+      const deadline = new Date(now.getFullYear(), now.getMonth() + 1, 1).getTime(); // Next month offer ends
+
+      if (!countdownTimer) return;
+
+      const diff = deadline - now.getTime();
+
+      if (diff <= 0) {
+        countdownTimer.innerHTML = '<span class="text-accent">Oferta encerrada!</span>';
+        return;
+      }
+
+      const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+      countdownTimer.innerHTML = `
+        <span class="text-accent font-mono text-lg">⏰</span>
+        <span class="text-accent font-semibold">${hours}h ${minutes}m ${seconds}s</span>
+      `;
+    }
+
+    let countdownTimer = document.querySelector('.inline-flex.items-center.gap-4.bg-accent\\/20');
+    if (countdownTimer) {
+      updateCountdown();
+      setInterval(updateCountdown, 1000);
+    }
+
+  </script>
+
+</body>
+</html>
